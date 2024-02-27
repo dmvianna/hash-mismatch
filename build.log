@@ -1,0 +1,785 @@
+running nixos-install...
+copying channel...
+these 601 paths will be fetched (0.00 MiB download, 1082.61 MiB unpacked):
+  /nix/store/gm9bj26zzj0i2f2mkhi7xh6zwvkd4c65-50-coredump.conf
+  /nix/store/76dsnn92prg2d6mhn8wpmx9vm85ilfn7-X-Restart-Triggers-dbus
+  /nix/store/31wb9xwyk9gb5ynscy743kbfwmqxb0zy-X-Restart-Triggers-dhcpcd
+  /nix/store/jdw8kskrm0mkk6jp8lmyysk8pkymk24f-X-Restart-Triggers-google-guest-agent
+  /nix/store/x81rkwza71rzbh32rz4al2inl899m2vk-X-Restart-Triggers-nix-daemon
+  /nix/store/3gr9vbww2c56kmjpp2x0kirp9g559m1m-X-Restart-Triggers-reload-systemd-vconsole-setup
+  /nix/store/25sdyw0z170qsfm9n4w8nl1s3piiwfx7-X-Restart-Triggers-sshd
+  /nix/store/9qc5sr4ps5ah681iwm327fcw4jlsdncl-X-Restart-Triggers-systemd-journald
+  /nix/store/gisbsjd0g63qmzq1yfpc79nbj8m2fbvl-X-Restart-Triggers-systemd-journald-
+  /nix/store/11hk4dn6xd2bwilviwfspdp2l2hgd4ai-X-Restart-Triggers-systemd-modules-load
+  /nix/store/qwzpzzbs6ahjcf0gnvsk4q5p714811h8-X-Restart-Triggers-systemd-resolved
+  /nix/store/nyad8npqaq6nl7smhn37syjiafph82iy-X-Restart-Triggers-systemd-sysctl
+  /nix/store/z026f0jzb3qbjvfw89qlfba0a99rw3zs-X-Restart-Triggers-systemd-timesyncd
+  /nix/store/na8b0rbp32v2x5pp62b7k4fhq686xf76-X-Restart-Triggers-systemd-tmpfiles-resetup
+  /nix/store/qcyc34rvash2viam652c13h9r90m21fg-X-Restart-Triggers-systemd-udevd
+  /nix/store/0w8609mjcd0shnjzz2jwq15g2i13m2rw-acl-2.3.2
+  /nix/store/ip989ggqcl13qjl4qz60h827y5bw8cga-acl-2.3.2-bin
+  /nix/store/5hrxzz7a7cqd42rqqvjrn3xydw4hq4sm-acl-2.3.2-doc
+  /nix/store/l3lfabirnnhvl2cpj9ybgir2jryr8kz1-acl-2.3.2-man
+  /nix/store/n68jym25m4qprbqakmfm692myx0bvglh-append-initrd-secrets
+  /nix/store/nrqismqvi7kmrx5xgr1l585avf5nvnha-attr-2.5.2
+  /nix/store/gcc2k5f6zbxkgnphrfp1gjkczjcg4w07-attr-2.5.2-bin
+  /nix/store/1qbzm4mbhm9jzwirbdkgsigiq7xl3ybp-attr-2.5.2-doc
+  /nix/store/wbxfc7j0dg1ygbq8acxmc3avzf03zs2v-attr-2.5.2-man
+  /nix/store/ryw20mwn5z4bgm2gxm3fiypjlaqqwrrv-audit-3.1.2
+  /nix/store/apvk3z4y1ba4nbck5d7wx79hliil5qpb-audit-3.1.2-bin
+  /nix/store/wass04k42w80v5rza55d3v34ayf8k6m6-audit-disable
+  /nix/store/31zcbbf6j12fba6vmbiabjq49llvimva-audit-stop
+  /nix/store/4685clam73m2gzjb539mr21iw86gr2jf-aws-c-auth-0.7.10
+  /nix/store/kjii0l1zclc22kvxa2x8wjriqq0qks7w-aws-c-cal-0.6.10
+  /nix/store/xcgx0bamfp8g4crbdv87v5v4c27ax15b-aws-c-common-0.9.10
+  /nix/store/hz6r1i8r9n5ig3rj7c4kvfglax6y17bb-aws-c-compression-0.2.18
+  /nix/store/ja39w454ahdj1nrgrss56gxl5bldq65p-aws-c-event-stream-0.3.2
+  /nix/store/9x5dfmycffissjw594pwarng3qskzk7g-aws-c-http-0.7.14
+  /nix/store/16rs1m5ajn7gvri6q0g6k4gdi5qpk750-aws-c-io-0.13.36
+  /nix/store/lbgqc1pz2ybg39xmqg18fnkikn6isd29-aws-c-mqtt-0.9.10
+  /nix/store/haj3wlnp4fj9cffzmln1alyklk4xwm9c-aws-c-s3-0.4.0
+  /nix/store/abl4apdafjd0pvwm2nf80045207297gs-aws-c-sdkutils-0.1.12
+  /nix/store/j55yyzz7wd6lskflf975lba1pq10bc1b-aws-checksums-0.1.18
+  /nix/store/sn8dl1ydxqd7xvhcr53bgbj5ff1cvsz5-aws-crt-cpp-0.24.7
+  /nix/store/0gfm032fsn9c1shqm7gkqn9qyjw27359-aws-sdk-cpp-1.11.207
+  /nix/store/087167dfxal194pm54cmcbbxsfy3cjgn-bash-5.2p26
+  /nix/store/7iby3b87z5xdd613insc2d7ffgq3jnhm-bash-completion-2.11
+  /nix/store/vmgwn3xsbyj860z2bazvg4n10c4kp3xk-bash-interactive-5.2p26
+  /nix/store/3drn9s1rspxrgd8kilqqqg2vq5sx5rdp-bash-interactive-5.2p26-doc
+  /nix/store/sbg7v7d8j9szi3rlqvnrdhmanil2vdpg-bash-interactive-5.2p26-info
+  /nix/store/sbgq69ls47c0d9si99wyj1n6230rz9gg-bash-interactive-5.2p26-man
+  /nix/store/d1xp0ak1gp4g4s820c4468l777m9q6id-bcache-tools-1.0.7
+  /nix/store/6pqxcggxy1yicp7ydxify15isidhm0xs-bind-9.18.24-host
+  /nix/store/qx51wky4zr97b0hvxs67v4cv8xxjj1aw-bind-9.18.24-lib
+  /nix/store/dnqkp9in8hp2ppbi894mdgl82pi6y315-bind-9.18.24-man
+  /nix/store/g28l15mbdbig59n102zd0ardsfisiw32-binfmt_nixos.conf
+  /nix/store/p0p56gzz837fgmfd7lyisghcd7x2fdlc-binutils-2.40
+  /nix/store/mpdmpcs84lnnyvh9829629wzh78j4mjh-binutils-2.40-lib
+  /nix/store/cc92grinhsyp2mq5sxlmz06z68gz1h98-binutils-wrapper-2.40
+  /nix/store/xsvx6djpall7yp3x80w8as3l5lzkgjhf-boehm-gc-8.2.4
+  /nix/store/zkp3cvak1rvwc643wy82dy3fkyrig6ar-boehm-gc-8.2.4
+  /nix/store/ys38fd9sl7b8iylz16jawm94xfzgyzgq-brotli-1.1.0-lib
+  /nix/store/v03zcarx3w0fa1clia0gal6p6m6f4wqf-btrfs-progs-6.7.1
+  /nix/store/glhsfnfm3rdjv9685xqpq0f3d3k9k8c7-busybox-static-x86_64-unknown-linux-musl-1.36.1
+  /nix/store/qnmpyjc4ambvwswqgscjq85qqgvwdyh3-bzip2-1.0.8
+  /nix/store/b0gdx2hz2nyf9ap2n0zixczc7k2kqk9j-bzip2-1.0.8-bin
+  /nix/store/0zkdfwya04d5zzrv3lvaw2xvammwbmfj-bzip2-1.0.8-man
+  /nix/store/y8ry1h2a76xhdkagrw06nc75214ry807-chfn.pam
+  /nix/store/s4gcwhdrq6185wpz2avdj64wm3658i3d-chpasswd.pam
+  /nix/store/3jf78578kzaz1njzpz501kdkpg17w8w6-chsh.pam
+  /nix/store/s8qzhkgig3j48cg98qny2972xcgvrxwv-cloud-utils-0.32-guest
+  /nix/store/h36v3ykgn79qk36rsc91xffmrp8sg4p2-command-not-found
+  /nix/store/6jaq2b9sz2ncnra8q493d8d4yjz2fpq9-console-env
+  /nix/store/xza05r37w3c9vgf50sprcdqckxwxra74-container-init
+  /nix/store/x1xcjw5628crkk1pwr12y7nwbzkc3969-coreutils-9.4
+  /nix/store/aqz40s57yjk2x5g7jzfjrdzrcsl05gg0-coreutils-full-9.4
+  /nix/store/dm324fw8d8lwxx3dvhmx8br4vnd8l0p7-coreutils-full-9.4-info
+  /nix/store/amlap3n6r5k2jm1gr8kfhn70r3y882s9-cpio-2.15
+  /nix/store/k1k7bmmnrhdb9w59a4s79fwqbzv9359a-cracklib-2.9.11
+  /nix/store/kxms15w26ay0b8pns8lpaa4pkfqal28q-cryptsetup-2.7.0
+  /nix/store/by9nw1lxyh5zvzjjwhf39yj33i1dd7jg-cryptsetup-2.7.0-bin
+  /nix/store/m303iss8mdvx4k7hmmwv6x70n98wla8x-cryptsetup-2.7.0-man
+  /nix/store/84wcm74cp3k2i504ggwkgf4ikdyk0y3m-curl-8.6.0
+  /nix/store/fh7vxc5xgiwl6z7vwq5c3lj84mpcs4br-curl-8.6.0-bin
+  /nix/store/p7xwmisyjskm9kmy1nb356v9qqymrr3h-curl-8.6.0-man
+  /nix/store/xd7k5f0pjg4qs4ihdyvpq61922lpgvcp-db-4.8.30
+  /nix/store/p53snazkp9fizk2i12v4syw2hh8zigkc-db-5.3.28
+  /nix/store/cqifzgcfc7v8agl41p95nqrjgh94pig8-dbus-1
+  /nix/store/h3zv7932ymvq41z7dh92v02h9pmnb583-dbus-1.14.10
+  /nix/store/kz9hck3r6n0n3a5sink8724alfzsyxhj-dbus-1.14.10-doc
+  /nix/store/sfmmrjb9fkr8crkz4h8iz3zgrdc6g5np-dbus-1.14.10-lib
+  /nix/store/1gzwjvrilqjw66g76xq142rypwhr01ik-dbus-1.14.10-man
+  /nix/store/yhpn3bdwn5wdzh0sc6bnh573xlknjd8p-dejavu-fonts-minimal-2.37
+  /nix/store/8kbqkk482nb4j8613x3g98dlls6xjhyv-dhcpcd-10.0.6
+  /nix/store/736hv8zs9b2fw1aylkn17ixzm61nxn5j-dhcpcd.conf
+  /nix/store/qcljch44fqks31r0gm7vlqywdlqp917f-dhcpcd.exit-hook
+  /nix/store/xcmwf4l5n35cislpzhbhqbnd31wwsbll-diffutils-3.10
+  /nix/store/8djf0033la4hjq4lr6ld400zlxmgyg9f-diffutils-3.10-info
+  /nix/store/nxgy0s46bw9z3ysqv48nfszbrjxqy2dn-dns-root-data-2023-11-27
+  /nix/store/p2fwqzk3zjhxwr4a56dbjrq2fdk3p4a8-dosfstools-4.2
+  /nix/store/54bhx9x47c2ah0rhl52jf50n1cfzp5nb-e2fsprogs-1.47.0
+  /nix/store/hrbp2ii7w0l59sb2bzplv6dpwv4q8pan-e2fsprogs-1.47.0-bin
+  /nix/store/hgb9r5ch2kkjrp72lh0p9l4y789w3kpk-e2fsprogs-1.47.0-info
+  /nix/store/769z3b82knxsz8wih1q3vf4xdrr3f6ar-e2fsprogs-1.47.0-man
+  /nix/store/hfmli424hxsj0zz99cr5g311dx40wa1p-ed-1.20
+  /nix/store/ib7blscv3iqp4jsdgjzrjydh2fp9czcl-editline-1.17.1
+  /nix/store/vsfmyyvdiri10v11fi7pfmyfbla308h7-elfutils-0.190
+  /nix/store/7vh2ww7bqbla2m1y7cl56lgyad3vlccz-etc
+  /nix/store/i3li8852qv9gky227r8x5p8ix3vy5sfq-etc-bashrc
+  /nix/store/aja8173lsbvdzxx9yqkkfz1468yh2qx1-etc-default-instance_configs.cfg
+  /nix/store/c9dk8c69bh8dsfki2x4ndbrj5ij9vx0m-etc-fstab
+  /nix/store/5biklla8vf33xg1plg9j2a6zrvcch73w-etc-fuse.conf
+  /nix/store/zgm1vk7g4qmrfkry7sjz7snxx1p4saik-etc-host.conf
+  /nix/store/m44bn1ri892ndm9a4hfypqhshjaaqsfb-etc-lsb-release
+  /nix/store/s9nfy5hb3ppw6bynzhy2kc6n17i70mqm-etc-lvm-lvm.conf
+  /nix/store/ygqhyspdjf6va05hiy3f0aizjp112wh8-etc-man_db.conf
+  /nix/store/mvmi69hsk26ifgdj3xg9x6xaqmfmb7w3-etc-modprobe.d-firmware.conf
+  /nix/store/69vr3hbnafq5i91nmq358glhiyhg4qvi-etc-modprobe.d-nixos.conf
+  /nix/store/n78klwm17v4jcszzxd96gwc3dri2j5my-etc-nanorc
+  /nix/store/9wd3sn6kyl561gpx96hb880cj1sl38h2-etc-netgroup
+  /nix/store/a231xv0bgsgw7q7g03aixjs3lrja7j1g-etc-nix-registry.json
+  /nix/store/411dgsa2x5sc0f5jan7gs5y7hmjs5khv-etc-nscd.conf
+  /nix/store/2wg109cs75yp36nzc5vq7z18ma8c4l35-etc-nsswitch.conf
+  /nix/store/z1gy6ldy45jh22r6130iyd9n9sjwbx69-etc-os-release
+  /nix/store/l47xnihn82r7pvmjl40zj7qppzziwyp1-etc-pam-environment
+  /nix/store/vnv6w0z5njzlkfwjdfd12dsjvs949zby-etc-profile
+  /nix/store/zidbi34yn6ahpgbjrhj9mp0fb6hiyxdr-etc-resolvconf.conf
+  /nix/store/yhcc5cblsbldnh3aiwypq5c96srhga6n-etc-shells
+  /nix/store/s06sgvnml6309vsbk1fi32ffnbyhql5n-etc-ssh-authorized_keys_command_google_oslogin
+  /nix/store/mpcl2w4xfzc9asm3r184y0xxqsqfj9h3-etc-ssh-ssh_config
+  /nix/store/487nz4gyb6yhm333i1zil3zcs3126q0s-etc-ssh-ssh_known_hosts
+  /nix/store/q9vhnrym71rmpgniz5rmm1f7ycrarlj4-etc-sysctl.d-60-nixos.conf
+  /nix/store/0dc98zq1mjd7qsnw81zlmfa8k89czqri-etc-systemd-coredump.conf
+  /nix/store/dp73imdq701v9b0w26wlzm3rp8gw1mwh-etc-systemd-journald.conf
+  /nix/store/fglsrr5zlzd1mz2lr9zd1l6f6x0vnb20-etc-systemd-logind.conf
+  /nix/store/b66333qpncyl76f0rb7l4y0fp9iw9xp3-etc-systemd-oomd.conf
+  /nix/store/dg3sgagsi4b5ssj21w8mc4hs6c5977id-etc-systemd-resolved.conf
+  /nix/store/y93821nnahzzxvsx7xkfqjadkbm264m2-etc-systemd-sleep.conf
+  /nix/store/6x8aw291n0q9g7c006h72ips47wg72r6-etc-systemd-system.conf
+  /nix/store/rc2i554qhwnj0w6sz3425jc9whyr0c0k-etc-systemd-timesyncd.conf
+  /nix/store/nsnc8j10jmb88yl0rxhj1f000rr4p2kq-etc-systemd-user.conf
+  /nix/store/8j3vmfiqnaq2xg5apjzyycsvng28d1w2-ethtool-6.1
+  /nix/store/q3d0dzimdzxlib72yfzpiq25r42qk13x-expand-response-params
+  /nix/store/rf6ks8cj035fc6p1prv6alvnl161hilr-expat-2.6.0
+  /nix/store/13yqz2618pr0qcnj4z6fyqq4j3vwfaf6-extra-hwdb-file
+  /nix/store/01nh6izl6bsn5zypd8zn7wip0r7pfx38-extra-udev-rules
+  /nix/store/crwcnq71gspdrfcz6n9fdhmdlhm7vy07-extra-utils
+  /nix/store/wbl484hl8g0hiq9za6y9nv0a87f9h0nl-fc-00-nixos-cache.conf
+  /nix/store/49kxr116s8j1kgbxz2argg4jjc6xsrwx-fc-10-nixos-rendering.conf
+  /nix/store/ddwbfzfxzfzga8x6k1rrn4jmf68m5ahb-fc-52-nixos-default-fonts.conf
+  /nix/store/rfvfm63y33dh3rlbnk6d747pvqqyg8k5-fc-53-nixos-reject-type1.conf
+  /nix/store/j7wi0rx7nkapd3ws7d86h4g7rsmpvrxi-fc-53-no-bitmaps.conf
+  /nix/store/bhh19mpp5lczfqq6dfh6k1ycmwn3gp40-fc-cache
+  /nix/store/1cx5b8c68w2k725mgjvcc09fs18v4iwy-file-5.45
+  /nix/store/i6y16f2jzcv1g1k12qdkislh3yqk2rl7-findutils-4.9.0
+  /nix/store/9cq04787xj4d8d7fxa2qsah7ap5hzbms-findutils-4.9.0-info
+  /nix/store/wc0fx5ll5qg27wl3xfhn5hg6r2hnhm6r-firmware
+  /nix/store/asx31yckfq278vbr7xiyv663nqkc8l7g-fontconfig-2.15.0
+  /nix/store/8nps3wi9dx76qslmbhfkn5qvyhz9pj3s-fontconfig-2.15.0-bin
+  /nix/store/qnwqnsl37hqkxsg9z88aspg1yaxmgj98-fontconfig-2.15.0-lib
+  /nix/store/0p5av9g67m32d4gzagqkwv0wscx83g90-fontconfig-conf
+  /nix/store/paicyk604w36qi7cmphgp2x7b358vwgq-fontconfig-etc
+  /nix/store/nh0d25z7si5ap98bpgyrfrnqh9zszbkd-freetype-2.13.2
+  /nix/store/6zfvdl6ipaqgm03ivv3g90xpc7s0qh96-fuse-2.9.9
+  /nix/store/n8czpf5z2jvfzrzx44ibr9mc3wc699s9-fuse-3.16.2
+  /nix/store/78q5np4llnqhshx72kxm7w7q31pj0v7b-gawk-5.2.2
+  /nix/store/c8zhwibxrkzjxm91zb59qqr4dblrvfpz-gawk-5.2.2-info
+  /nix/store/bliqiqzqwdklcbajc4vs6jmnwzx638pf-gawk-5.2.2-man
+  /nix/store/9r8z1qr5jhv90fl2457qqml7qgk88fd6-gcc-13.2.0-lib
+  /nix/store/nzvnm5wsigdi3akjkavhx0rmvc8q8q17-gcc-13.2.0-libgcc
+  /nix/store/yda1djqi3dpb5ai9gxil8xwlbn4l1cc1-gdbm-1.23
+  /nix/store/4ggxkgj6iqya078q0dkc0jwb387z8zmc-geoip-1.6.12
+  /nix/store/wff29d309mi4vnwbdh7i83rh2cqwdfwq-getent-glibc-2.38-44
+  /nix/store/g0gc1ls4p1rwcx7k5qr153rs71ir8ixn-glib-2.78.4
+  /nix/store/8mc30d49ghc8m5z96yz39srlhg5s9sjj-glibc-2.38-44
+  /nix/store/ssarggxx3laydmfkq1dlv4ilcsw7phfq-glibc-2.38-44-bin
+  /nix/store/b0s2lkf593r3585038ws4jd3lylf2wdx-glibc-2.38-44-dev
+  /nix/store/bmmbmrdv41a2pw10b93l0fa7g8xpjni7-glibc-2.38-44-getent
+  /nix/store/xbyg4x37l32d5py04cfhh74m23d11jfs-glibc-locales-2.38-44
+  /nix/store/k66kv7j7jrgdrv82lw3m7497kaqsnac4-gmp-with-cxx-6.3.0
+  /nix/store/x5z3rzmi6j8rncx454sg8ci6npwmsxds-gmp-with-cxx-6.3.0
+  /nix/store/11b3chszacfr9liy829xqknzp3q88iji-gnugrep-3.11
+  /nix/store/pclxb8hg489s65cpnk9pyf0c7fiwy4mn-gnugrep-3.11-info
+  /nix/store/rw3f56vdxyfpmfw7krzzwlvqvfwg2hgk-gnupg-2.4.4
+  /nix/store/y1y3rml47qnh0giqd32mj07qxxqy13qg-gnused-4.9
+  /nix/store/7r45hbi815ww4wqygdzlwzpp32w709s9-gnused-4.9-info
+  /nix/store/dxbzps4w5rikj7jdcyjcw98lk517gf0h-gnutar-1.35
+  /nix/store/lxzx55crzam2v572nmdzja5cb000hbfq-gnutar-1.35-info
+  /nix/store/zmrilabnz6k27gnz42xmh2kaqg3pcnkq-gnutls-3.8.3
+  /nix/store/10mafg82n47s0vwmwxa2rb1pfmgz6iy5-google-guest-configs-20211116.00
+  /nix/store/i78hd295qv9a88qfm6vv1sdh449w3lw1-google-guest-oslogin-20230831.00
+  /nix/store/j2c3r9wgq0qpfkr9i5vdn766c483w2rj-gpm-unstable-2020-06-17
+  /nix/store/8vlhmq9na2aryq2wb6gmq05w3lnr2nr1-gptfdisk-1.0.9
+  /nix/store/gzcd4nnlzjjgmig3hzbj96pp2zdv3cax-groff-1.23.0
+  /nix/store/1wyxxcl0c7ijnasb465991wxgw4lkbmw-groupadd.pam
+  /nix/store/j85xm2pcmkvg0g6fajpccl54gwbavj6g-groupdel.pam
+  /nix/store/krmx8n99zgfjx8nzwc0dz9jqnnxkl9vs-groupmems.pam
+  /nix/store/n2c3w1smg63f3293m1rqslw96df0vxah-groupmod.pam
+  /nix/store/2b2db572yf39j4zf40ilwk7l44h7c5bb-grub-2.12
+  /nix/store/021vw3s1jb08qpgwwvjf5l5ch4qz7wvh-grub-config.xml
+  /nix/store/b616cl6b81v62g40zih3vq930sry4iz0-guest-agent-20230821.00
+  /nix/store/zyyb8vi6jg1swr5f34rxgi9izck2r88h-gzip-1.13
+  /nix/store/jczkcv5iry6a48l2pgayg8q152jpgw8s-gzip-1.13-info
+  /nix/store/gahr82c0jqp1iwmc4p7frljhb03i1xf7-gzip-1.13-man
+  /nix/store/r8kgkapfd3hnl5hvgd1i8p5602mn4nci-hicolor-icon-theme-0.17
+  /nix/store/a3gjl0yjk2sh4gqslb1g51w6w35sbvxi-hosts
+  /nix/store/i0dn5ppfqxwqcxivi41k0nqvgdsi3x8a-hwdb.bin
+  /nix/store/7c5fwskycsnis2clircc6ydi0zmw6zny-i3lock-color.pam
+  /nix/store/lrp1034rqnn1i0bp455g2crzjkn0im7k-i3lock.pam
+  /nix/store/0qwpih2kjj1vgb5imcgdqybsr2dr92aa-iana-etc-20231227
+  /nix/store/1kz1vbl6mcryh9684wrh3z84lp0icmam-initrd-fsinfo
+  /nix/store/wvjjd6jb1irx5rq92b876bp30g98029j-initrd-kmod-blacklist-ubuntu
+  /nix/store/vqbg5086nyclx8bhkkx0463w1j56amdl-initrd-linux-6.1.79
+  /nix/store/dwv0wf3szv3ipgyyyrf1zxh4iqlckiip-inputrc
+  /nix/store/7g0n1bwbc17vmnpjhlp6y815dwpnr9si-install-grub.pl
+  /nix/store/00bqqdah428blj40m046587c0by1ri8i-install-grub.sh
+  /nix/store/pgig6i2sj9l37831synqvf4jdd8va82b-ipcalc-1.0.3
+  /nix/store/3nrnh8sj8yxd5wj6s5l7llxpzpi5w6p5-iproute2-6.7.0
+  /nix/store/d6cgcv00y60iagfbm91x8fbhsk149nbd-iptables-1.8.10
+  /nix/store/a7mm1klyrv4q44k5bmbnwwy3cg7k6r2s-iputils-20240117
+  /nix/store/2s353dw30d4v4zcd0xq16hj2q9yg68zh-ipv6-privacy-extensions.rules
+  /nix/store/9pafdjz0fw4zdmwzjy170lflyvn90lnr-ipv6-privacy-extensions.rules
+  /nix/store/jn2gw89p78q869mw5j187j8adzvq045q-issue
+  /nix/store/2rh1ria0y4h6axmc7lc4rnf7pmxq9h9g-jemalloc-5.3.0
+  /nix/store/6jv10grqq0nzq608b7z3bx4yhc215i30-jq-1.7.1
+  /nix/store/gn4axr2vnygb3hr3v5kibspnic853k9v-jq-1.7.1-bin
+  /nix/store/hp4j7q6h4a2gj2vm4mix095y85yrmvna-jq-1.7.1-doc
+  /nix/store/fq3np3im9mqdfcj0kv6ayxa6w8fnwcfz-jq-1.7.1-lib
+  /nix/store/ygybcxhd4pa7dqnbkv0pqz8fi3dd31cs-jq-1.7.1-man
+  /nix/store/3lz4sl1xq7rfqr5279rj74qqrc7lpsr7-json-c-0.17
+  /nix/store/dgn1vgdmj7pfbsc5mxqadp2v6k19mad2-kbd-2.6.4
+  /nix/store/p8c0iw4dcgihqspxsgjqywqkgg41f0f8-kernel-modules
+  /nix/store/kb5nc2q2bxi1amn5jn97nilbj3400pjd-kexec-tools-2.0.26
+  /nix/store/6qny550zx98zqk3c8pd8i8yi4fsrnc8m-keymap
+  /nix/store/qrmgcp8ya2v92dc8v8fkc5y44fkxqzxc-keyutils-1.6.3-lib
+  /nix/store/0hwybzni8lrr9dcfmnnsskkvavp7zqh2-kmod-31
+  /nix/store/h6klfgmgik83jc3a16nsd6ji4z9avpp8-kmod-31-lib
+  /nix/store/5bljxxdc3m9phwp4ha76jkbw5iklsppl-kmod-blacklist-30+20230519-1ubuntu3
+  /nix/store/7598ax3vnlcvh1algf5v7by9sq80vbfn-kmod-debian-aliases.conf-30+20230601-2
+  /nix/store/0lvnlkw4g66qvyy3qkha92568mi5k0sr-ldns-1.8.3
+  /nix/store/ihqrvfmga57c8bwcmchp72qhww079fd8-less-643
+  /nix/store/q5f1r7hjy41zjsgj9nsn7hans177l7v3-less-643-man
+  /nix/store/awlswrywzgnagkllxh8r8cr25w1cgdq8-lessconfig
+  /nix/store/0hhdalcf0fx2v8kkd8dlaxy158lmkn1z-lesspipe-2.11
+  /nix/store/4jfygyka98g5g4gh30ya4cwf7gvjcbds-libICE-1.1.1
+  /nix/store/m5pmpnlmi2bc7cl0caqpmdgd86ag4w82-libSM-1.2.4
+  /nix/store/zdvnf6b6w5sdgxbzg7v6yrlijml8y4yq-libX11-1.8.7
+  /nix/store/3hqdcdym2v1i2g57xpma73fg5fa4qh3y-libXau-1.0.11
+  /nix/store/srh9dmhzc1zg1cwmndhagxiaswmjnvmp-libXdmcp-1.1.4
+  /nix/store/7zkcm91ylnlip3xp1kn1xrn7d5zqzq1r-libXext-1.3.6
+  /nix/store/x9pcbn0i85ypl72a6fflvb4p97lhib0x-libXmu-1.1.4
+  /nix/store/6zn4khpcrcqxngpgkj0p1ik141zh5mmk-libXt-1.3.0
+  /nix/store/1ns6mv4z3xlygdi7bn1wnzgk3kmvjgwf-libaio-0.3.113
+  /nix/store/5ifxpaqf203xbxqga47z8d4g29h18xjx-libapparmor-3.1.7
+  /nix/store/w8vn4643am00qrwpapvnj9yra462h1ns-libarchive-3.7.2
+  /nix/store/cf5mx61ch5h4gahjkxsdrig4h8cfhlwy-libarchive-3.7.2-lib
+  /nix/store/vgbv831r5sjcxpw5zyjdh9pvhpcf3sbr-libargon2-20190702
+  /nix/store/rkrxij0pi190snzralrcswqvqchaa41f-libassuan-2.5.6
+  /nix/store/i31sj33gm6rwy1h1h7jvbrz1xqq3i0j8-libbpf-1.3.0
+  /nix/store/7vpmy43i0qshh0m0l08gm8x6d1z985yr-libbsd-0.11.8
+  /nix/store/lpav454shs98j8wil263pmcschjig71f-libcap-2.69
+  /nix/store/fypgy3a8zpcjqflqj86zvaqz9c1pjryq-libcap-2.69-doc
+  /nix/store/kq1mi3d2sz8zazzfdig01fdfji218ja8-libcap-2.69-lib
+  /nix/store/382wkbv88w3faairzfniplcl5m46sbmc-libcap-2.69-man
+  /nix/store/zcm0lg5j0ilcmlkp0mxnvffg8zjahrql-libcap-ng-0.8.4
+  /nix/store/05b7f9v95v6m8wlfdrc2bq8nr442zmgp-libcbor-0.10.2
+  /nix/store/0xn2ka1vzpb3mp785wbi3s9mkvmz70ib-libcpuid-0.6.4
+  /nix/store/gc59q8rrd22wp3vjgr11vlhxn946n9sd-libedit-20230828-3.1
+  /nix/store/6v485ckg2z9k9dzg16ybxi84b477vnbk-libelf-0.8.13
+  /nix/store/f6lp1hj01dbb8847db3gy26x0q9016di-libevent-2.1.12
+  /nix/store/5r3r06j8hzvb2cm0sjhdadgdmzrfh3nj-libffi-3.4.4
+  /nix/store/65nr66kzbxgx7qcd6biy1yb7ik08p405-libfido2-1.14.0
+  /nix/store/2pzwimd7yj40f32kngjyzxszbd2bp5a2-libgcrypt-1.10.3
+  /nix/store/j21z9ckmpbbsxn6ygsdsjwqhagyknz45-libgpg-error-1.47
+  /nix/store/rny9bdwrs6fkgkq678ixfg1lv3sa18ql-libidn2-2.3.7
+  /nix/store/av9pqjxnrhsbrrjzs246l7xkwvwqrv9d-libkrb5-1.21.2
+  /nix/store/6q2ylca0vsi99jp8wks0k7pqralz80sv-libmd-1.1.0
+  /nix/store/2qbi07pp8sjm4qa4vyb5iv5fqdgj3dfh-libmicrohttpd-0.9.71
+  /nix/store/8h8vqngzc2mahwilxiywxya7lrxiayl9-libmnl-1.0.5
+  /nix/store/siwqb0rb4awngv6xl94z03n0p117yxaj-libnetfilter_conntrack-1.0.9
+  /nix/store/zl3slsz44hrjpq2ccvxal06pdl47d3d3-libnfnetlink-1.0.2
+  /nix/store/x6q5n6fwv8v1q7warl7yj93h8cgbq1wk-libnftnl-1.2.6
+  /nix/store/mmp70z4jd8wc71gnx3ypx8x4fy05k5l1-libnl-3.8.0
+  /nix/store/mfklxdf3pk9fx113z6m0sq69531hil3q-libnvme-1.7.1
+  /nix/store/byllijrdpdyqv8gszfjdq7ndrsjxz2q2-libpcap-1.10.4
+  /nix/store/ad4z0gycax40dw115cxzbpi29kl6ycpc-libpipeline-1.5.7
+  /nix/store/amx4pam12xyavdfkyb3xjmdb9h2wf4hn-libpng-apng-1.6.40
+  /nix/store/nwfsn1in46wmgn6ssm2j8famwis5yisz-libpsl-0.21.5
+  /nix/store/9m3f8rq1di68jawhy1r8y5hkvlahglh4-libpwquality-1.4.5-lib
+  /nix/store/paq2x94by0dp8n2zilc8ff3yanqkj2b3-libressl-3.8.2
+  /nix/store/w713ihz4j5p2g2dp5mhwsaqh10vx2xk7-libressl-3.8.2-man
+  /nix/store/llb9l9v35z4z60dz1rq3v131n4ilqbyx-libressl-3.8.2-nc
+  /nix/store/nmib69p3mkqzj75x8di5qx1r1yjl7pgk-libseccomp-2.5.5-lib
+  /nix/store/8krrw01r9f9miknllr5d95dndk6zrnfm-libselinux-3.6
+  /nix/store/rg662wdfkc8wlsn9hcryy12sihm324in-libsodium-1.0.19
+  /nix/store/wz91cl70vzwk4wxcjg5vvmgw2vgp5qv6-libssh2-1.11.0
+  /nix/store/nk9mxqw4692hx7zaipswl2n8f3m2c4q3-libtasn1-4.19.0
+  /nix/store/y6b21pzdhxgpj59ia02xfcq3lah13n1q-libunistring-1.1
+  /nix/store/ayl3qrwyc007w8hv9djm07519sl3pmha-libuv-1.48.0
+  /nix/store/klgd6i59s5dgdv9j8ka78s9ggqp8ijnk-libxcb-1.16
+  /nix/store/9109gq5pbiizq4jf8qcyrdxcc15chcr5-libxcrypt-4.4.36
+  /nix/store/n8dqvi9lp8j8wkfdi0ispkfh2ahhljd1-libxml2-2.12.5
+  /nix/store/bn8y1ibzcvbqbl7d43zszl180ghy4rsn-lingering-users
+  /nix/store/lnxi2kddb4l4l7wyh1xvfzdj6cjn1s9c-link-units
+  /nix/store/q5qw2k004k5qv2jm8wqmssi8xfms3bc0-linux-6.1.79
+  /nix/store/9f8x1pbv2m6rwxp3hjvvzfdfmsl3cg47-linux-6.1.79-modules-shrunk
+  /nix/store/m5hkk4djwsnlhx0z172f6r470niqli9w-linux-headers-6.7
+  /nix/store/6g2hg96djmw70l9jfbpn94gkpnl1g76z-linux-headers-static-6.7
+  /nix/store/3l0hv5mgdfqgmnd2vd1zv4v7sfrj6nbi-linux-pam-1.6.0
+  /nix/store/ccll5498ybmx310b83246405r5f8sq26-linux-pam-1.6.0-doc
+  /nix/store/jizsp5fxvpiqv1hszs24ass6d8zadgxz-linux-pam-1.6.0-man
+  /nix/store/bp63l3wcp9jjvh2jc5zz6gxhibc8yahb-local-cmds
+  /nix/store/apsl3n5lm4m24nl6kj390zdpipm6kc8q-locale.conf
+  /nix/store/zdvslqibayx2s1mv1ksi267yizs1dp4j-login.defs
+  /nix/store/90sngjwv7lxf23nadp6cbpfj4lbkl9av-login.pam
+  /nix/store/zhbymsr6ml6jizzizv9g3922mpcwwhw9-logrotate-3.21.0
+  /nix/store/yy405xp0fafsqfadkikz66gli8ns4d5m-logrotate.conf
+  /nix/store/vybqjg03mjviahvbxgwa01cd2nvkrijf-lowdown-1.1.0-lib
+  /nix/store/3xmbp9g7kln2mnzr7b215cdh54g1ypld-lvm2-2.03.23
+  /nix/store/prk81mwadlyii4hhk5y6lj303yvij41z-lvm2-2.03.23-bin
+  /nix/store/gs9xfr35ydwhznfrc5w3skg55rmgi89w-lvm2-2.03.23-lib
+  /nix/store/02wzfa2wmhr3fam0icrcyyx17zz533m5-lvm2-2.03.23-man
+  /nix/store/wa65ywdyia9k3iqx1w9w0xp0dk1ixlrg-lz4-1.9.4
+  /nix/store/hmabsfsik8h8pv3mj6zkv4x6g13zvkfd-lzo-2.10
+  /nix/store/0q0krya2j3slr91w5n3acl3673z82j75-mailcap-2.1.53
+  /nix/store/s1hf0yr627419rmjliq8rm635sbk7ij1-make-initrd-ng-0.1.0
+  /nix/store/8nnm7hw1d53dxdqf3002bmxrdy9s62m6-man-db-2.12.0
+  /nix/store/snk808009fdhi4rvwladfpdyd76dywdb-man-db-2.12.0-doc
+  /nix/store/1zr3jsn88w3hqb2i173fh74938mk95hk-mdadm-4.2
+  /nix/store/jzg8sc2ny5d3lcifaj6v4890clhiysqg-mkpasswd-5.5.20
+  /nix/store/brz77vbbva9x4g407dg1hnfqil9vxp73-mount-pstore.sh
+  /nix/store/mhrmx9g4z8mkaxy4ky752chdlck69p2d-mounts.sh
+  /nix/store/w9ydlcdc59dyzd84vyizn8zrp0clm0vd-mpdecimal-4.0.0
+  /nix/store/hjbv2s4jcxpvq07lxl4dna860rsdd3qf-multiuser.nix
+  /nix/store/y2jsa5bfdkl2a7j3jdcgczccm2llib65-nano-7.2
+  /nix/store/7frrjmzpfssrqy7sv1shx27avrci8n3w-nano-7.2-info
+  /nix/store/5sqn9ipaj6zm26pypl6l748ahw9n6i3f-ncurses-6.4
+  /nix/store/qz4y8f1pkwjxp3sgmhsb88gqvdv7lmkw-ncurses-6.4-man
+  /nix/store/5q597bnf538683ffbpy9lvcv6fkvv587-net-tools-2.10
+  /nix/store/ps6lz75yc3b31rn4lxy96zvx4xyrwrci-nettle-3.9.1
+  /nix/store/ky4ypn0yd4f865x6gn3yrnvbb7pvs9id-nghttp2-1.59.0-lib
+  /nix/store/7yabr9axq711pw7xxkrgqv4cnvjgarkp-nix-2.15.3
+  /nix/store/jjwlila4cvwpf0pj53s9dpi8d9ri3f1k-nix-2.15.3-man
+  /nix/store/62fm7r6175k2bgvhc19hn9bdhw90wa3n-nix-2.18.1
+  /nix/store/52w6wwjajmz2hqsmj2nsk5nnnmcfaln7-nix-2.18.1-doc
+  /nix/store/xfv65bdkgykrsqc9vl3mg8b9dw5nrl2s-nix-2.18.1-man
+  /nix/store/kjxznzldl5ykmj4qvkhfmpxqk004sl87-nix-bash-completions-0.6.8
+  /nix/store/w3cx1ir83mgri4ypsix0121v0mykhqk1-nix-info
+  /nix/store/ic5zvs5qpfjsph8j0zid7qx4x0jh09nq-nix.conf
+  /nix/store/p6m8yif04qkyjkih3wy22phzdkd396p9-nixos-build-vms
+  /nix/store/vz5980h2hijzi3h125wjv6qhgflf85m2-nixos-configuration-reference-manpage
+  /nix/store/4l0qgar94h0281najbgfyzzy9wfq666i-nixos-container
+  /nix/store/wqgy28mai2krikipa80m0y78gr4fzvj9-nixos-enter
+  /nix/store/y4rmkkrlvwv3llvndvc0vfrqj4zaay3g-nixos-generate-config
+  /nix/store/03jhf2k57y510cdxp3svsbx3dmqbvyhl-nixos-help
+  /nix/store/3ma13p0fw6iyr3xw4hsdcgx3x5drm50s-nixos-help
+  /nix/store/xi1sc4i2v1cfwzwhyz210qabhg4xjd3z-nixos-install
+  /nix/store/0grxzb4p1ny8ykmlp31raq4gnahncwdm-nixos-manual-html
+  /nix/store/psr5cj36rarfjz87m8g95svqhg8z0ap8-nixos-manual.desktop
+  /nix/store/xhd34j5094q57zjj8w8x04s6gha4x330-nixos-option
+  /nix/store/c8gjzv03i7wv9isqn5cxw0pr473iy40d-nixos-rebuild
+  /nix/store/i7jhlgqn7z0brwplfmmrvgsq9vh0fc7r-nixos-system-unnamed-24.05.20240224.73de017
+  /nix/store/pmv5y19fdmh84k0c759rmylhyir4lhh3-nixos-tmpfiles.d
+  /nix/store/0isgqajbry9zc8l2rqg8ycapgx51l4cq-nixos-version
+  /nix/store/s6hby9b4qpqm0i9nyin5q6cn7fyv9fcn-nixos.conf
+  /nix/store/y6gijxd9agpmrc7rngbagf43hh45rdiy-node_exporter-1.7.0
+  /nix/store/hzraqmz3is1wcm09k81y64jibcqcxikd-npth-1.6
+  /nix/store/dq0p5iciyjvzmbab8fbwwaw56asfnnfd-nsncd-unstable-2024-01-16
+  /nix/store/w5m8gk2nymbybqx37qqf97y2myxjci9j-nss-cacert-3.98
+  /nix/store/91ahr5gsgp6lss8ncch8npn0y9hl2ngf-nss-cacert-3.98-p11kit
+  /nix/store/91xlglkprniq2595zjjw2zh6w0zsflai-nvme-cli-2.7.1
+  /nix/store/6qkimxbm1zhpc9jvk2xdnxm7s4piwfm1-oniguruma-6.9.9-lib
+  /nix/store/g1xqrhyyn0v7zg7n5nyah4fknx3as063-openssh-9.6p1
+  /nix/store/qkfcr92mk15h8hmwzds3g5gkx0vm5l26-openssl-3.0.13
+  /nix/store/34hhh8gy6blag8kj0y9nhv4mcrbbwl0f-other.pam
+  /nix/store/x5lna88c83xbbsr5c1fn5s91zv3wr3kv-p11-kit-0.25.3
+  /nix/store/66xrx6hifi15fcm8xwariqcxjp89y4r9-passwd.pam
+  /nix/store/8hsz6cchg5yw1wz89mab5f89k3j7l03m-patch-2.7.6
+  /nix/store/pbrwvrw515yn3zyrs005akgbas55hdwz-pcre2-10.42
+  /nix/store/ycshl3x5fzn8b8c83k2px4536j1bjzxy-pcsclite-2.0.1-lib
+  /nix/store/jr2c1rk91nqlfz5a5lwfq2kyilxzj879-perl-5.38.2
+  /nix/store/840i61ym6kcpc55yqni7rnirb3figpql-perl-5.38.2-env
+  /nix/store/asmsmvcln1sjgfzlw9vskknfj5ss10mb-perl-5.38.2-env
+  /nix/store/nfnbl6ci099swpi11wacgcp02xf8aady-perl-5.38.2-env
+  /nix/store/pi6if3xcvq5p3w12i8clwclc6nz3dr5w-perl-5.38.2-env
+  /nix/store/z70d55rnqzlv53fgawj48m54ynv0mjbr-perl-5.38.2-env
+  /nix/store/8xv9m62f21wmrm75lc2bxc6p3wpfjy5z-perl-5.38.2-man
+  /nix/store/ch40gjjpasnm0wkkfrnbv3zr482y8ykl-perl5.38.2-Config-IniFiles-3.000003
+  /nix/store/wbp9ci3xc2009h9mdfrnn1x7z7jifzc8-perl5.38.2-DBD-SQLite-1.74
+  /nix/store/r472fw0r5s5xgf4nh4blrwrkz6pngywi-perl5.38.2-DBI-1.643
+  /nix/store/shjz3fx0p806dzi1yykhrwksv357wf50-perl5.38.2-File-Copy-Recursive-0.45
+  /nix/store/zi83hjl1mvhparrr6zcsk7n4576iwra3-perl5.38.2-File-Slurp-9999.32
+  /nix/store/9h9wa116f37qxfxbi2kk7lq5f2j2iwkm-perl5.38.2-IO-Stringy-2.113
+  /nix/store/siyhlncs0q3mjbc7dc0gjvkypby2cjvx-perl5.38.2-JSON-4.10
+  /nix/store/12jyyyhfs7gp1bclr0f24gwvjd309xrk-perl5.38.2-List-Compare-0.55
+  /nix/store/xmk3larmsi38c184d93h70yak11iva3v-perl5.38.2-String-ShellQuote-1.04
+  /nix/store/i2zgccfjq19m9izi6cv4k915svkx3pfi-perl5.38.2-XML-LibXML-2.0209
+  /nix/store/8cscvj95mcspk68vi1l5jlhy27vhvf6w-perl5.38.2-XML-NamespaceSupport-1.12
+  /nix/store/jqhgz496b81y2v97ip36v26qs2wcfidk-perl5.38.2-XML-SAX-1.02
+  /nix/store/nwki8ng8fbn51w14m32p18rq2m6f2cji-perl5.38.2-XML-SAX-Base-1.09
+  /nix/store/31fl844i32sq59vdwxh7sgq2v78hbbi1-popt-1.19
+  /nix/store/ad55a6gxl237k7id50cck37zm8r00sns-procps-3.3.17
+  /nix/store/5ykwx45f053sr5lyzj49z385dnvmp3am-prometheus-2.49.1
+  /nix/store/79anwpzm0jsz27yfyh52y71skvrv8s2k-prometheus.rules
+  /nix/store/zpfcmyhqqlxdnnb5qy48014sxsckss8k-prometheus.yml
+  /nix/store/pcknz4f73kqa7qhs3mhz70k9hfkbf1l3-prometheus.yml-checkconfig-checked
+  /nix/store/74ynhsryyx5jk8c4phvz5n7lh4440p43-publicsuffix-list-0-unstable-2024-01-07
+  /nix/store/sxr2igfkwhxbagri49b8krmcqz168sim-python3-3.11.8
+  /nix/store/irfn5mzbf2051ngh6yjrjy6j4c3xl77h-qrencode-4.1.1
+  /nix/store/d48gzzk85sjwxgdrnannajrg3inzmv64-readline-8.2p10
+  /nix/store/4rd3hzbjjiwpm91a87qb4qk2ppqsgnj9-relaxedsandbox.nix
+  /nix/store/a16r791nr3ljby9p3nvq963i1ywdhj72-reload-container
+  /nix/store/fjvrv5pw5qr2kz13s7aakl4r94khrkj7-rsync-3.2.7
+  /nix/store/jvfhzshp2djbh9lk3jxrscb8dnq90a4d-rules-checkrules-checked
+  /nix/store/2kpi38kl590fhhqx62kpid4knypw888a-runuser-l.pam
+  /nix/store/knwmzmz566n49zz5qz35s6kq0aa19nwq-runuser.pam
+  /nix/store/z559lsgshvkqd4ykbf7fdqm52fkqmd2c-s2n-tls-1.4.3
+  /nix/store/xrhk3sx3dyhy9vq8pqh740nd0bhf0d1r-sandbox.nix
+  /nix/store/0n57pnscxqhg4ncyk22zniz811pkasqy-security-wrapper-chsh-x86_64-unknown-linux-musl
+  /nix/store/8k4xw2alad2sdcha96lpw4zw2yv0bg8h-security-wrapper-dbus-daemon-launch-helper-x86_64-unknown-linux-musl
+  /nix/store/z129w66rhkyb40sfh83gqx49szf2kvb0-security-wrapper-fusermount-x86_64-unknown-linux-musl
+  /nix/store/j1f5yd0zhn2si9mrqshs6kwhin75m5vi-security-wrapper-fusermount3-x86_64-unknown-linux-musl
+  /nix/store/wri55cly6g673nrdz2c9k7l7cd3z6g1v-security-wrapper-mount-x86_64-unknown-linux-musl
+  /nix/store/5lfgnvf4spknk1rp4kpq3mfrc6zwialq-security-wrapper-newgidmap-x86_64-unknown-linux-musl
+  /nix/store/5b3nky8dzvw4sd9znacf8l0vi8jmw2fm-security-wrapper-newgrp-x86_64-unknown-linux-musl
+  /nix/store/fwzpxbfvrzkq7dq5c8zsww4ymwjjjvzz-security-wrapper-newuidmap-x86_64-unknown-linux-musl
+  /nix/store/634aim6fsn58wp4c8am57pr0kyz35p8j-security-wrapper-passwd-x86_64-unknown-linux-musl
+  /nix/store/xllj2sdq3w6q4xz53n8c7mygsnpg9bly-security-wrapper-sg-x86_64-unknown-linux-musl
+  /nix/store/waqw1k7ffqlxiyw4iqngcjpbmp9fvzgw-security-wrapper-su-x86_64-unknown-linux-musl
+  /nix/store/r54sx3wcrq5h5lbiiw6ff0kzm2gk4cni-security-wrapper-sudo-x86_64-unknown-linux-musl
+  /nix/store/mv5y2k2bm25jn1m7inrzmlvq31arxgb3-security-wrapper-sudoedit-x86_64-unknown-linux-musl
+  /nix/store/gj1gpy16c2kn5vfl2li5dbyc3bxzkgd4-security-wrapper-umount-x86_64-unknown-linux-musl
+  /nix/store/pcx3nm963nfijch3brqnmml08a83xv0w-security-wrapper-unix_chkpwd-x86_64-unknown-linux-musl
+  /nix/store/mn5mzi6p2n8yfg3lhxcy00sx3z0aqp8l-set-environment
+  /nix/store/rg5rf512szdxmnj9qal3wfdnpfsx38qi-setup-etc.pl
+  /nix/store/x0s5fd3j414ghqsl0wpcxr9jxxykg0i2-shadow-4.14.3
+  /nix/store/4h20q5nm4qzkak28xqzgj5rbcps7a6lp-shadow-4.14.3-man
+  /nix/store/gyv2c9pcz8psp5by2h1rl0zrlv4n5p1q-shadow-4.14.3-su
+  /nix/store/skxbg344dmhw30k95y1cwlbi30m7klzb-shared-mime-info-2.4
+  /nix/store/0zr18q0831v8xfnifvf684qkxbivmgfj-shutdown-ramfs-contents
+  /nix/store/91pdbfp14rswvkrv6kz5dbfwlx6cl39x-smb-dummy.conf
+  /nix/store/20ch4pydzrk3i862ngb508s546d9414v-sound-theme-freedesktop-0.8
+  /nix/store/64b1rn1nrp58lmg7kb54z6dnv3q8znjj-sqlite-3.45.1
+  /nix/store/yl0h2bh7ws3sk97l0cisrvm5z4jh049z-sshd.conf-final
+  /nix/store/0y5lbdqq6f2xfpjvaks06fjmwv8w0aaw-sshd.pam
+  /nix/store/2bjwn4cd16nh65ryf89zbf4whsnscxmp-stage-1-init.sh
+  /nix/store/86jy6il3ss6k4155xxdmagfl5imscfin-strace-6.7
+  /nix/store/7pq6gz7i2ljm60kzkcs30rv9kq07zgwc-stub-ld-i686-unknown-linux-musl
+  /nix/store/986s7f4r1accyqpcvp6psmyw48jkqxfp-stub-ld-x86_64-unknown-linux-musl
+  /nix/store/c8p3633xcbkvpzx3lslpykch4jpk1c2b-su.pam
+  /nix/store/fziklrh6v9nd29mpl5havy56bmjjnld4-sudo-1.9.15p5
+  /nix/store/w1qa2pbha6xd0fyf90z1ycn8pd1arlbd-sudo.pam
+  /nix/store/gq49a89mfcawpr77swi6i4c2x7q4nhyh-sudoers
+  /nix/store/a8557hhvi2xvw5skax3qmqvgsd8r8gyr-system-generators
+  /nix/store/gmrywrhlfalcmmz1dp1d30v1cfgz47sg-system-path
+  /nix/store/7986ri8mw5kxvm1q97av904arcndl8nj-system-sendmail-1.0
+  /nix/store/nnxndk0fwiy1rkljpl3qnjrm2arq7wl4-system-shutdown
+  /nix/store/z4w42lc7hjivam574192cbxx35d7xkn4-system-units
+  /nix/store/5m6dvp3z9zm2011833zzr9ml375d3pxh-systemd
+  /nix/store/s5dx34869kl4fd5p913j5mis32c7f98k-systemd-255.2
+  /nix/store/1v6d5xd3s27p4fkxvpnn6rf25whiz3xg-systemd-255.2-man
+  /nix/store/baf99hzi6jkl86xmw1pd84c0ydhg3nqy-systemd-minimal-255.2
+  /nix/store/kynh7h0jd0vgvfj4ysm99z5405wwx7d1-systemd-minimal-libs-255.2
+  /nix/store/05n015w7c65nhda84kmalxfdb1ndjq21-systemd-user.pam
+  /nix/store/v98lrdffw3q656xakpw6qjcwcba93lbm-tcb-1.2
+  /nix/store/bdgjwc1a6fsg9fcmz3bm4ln1ik0fzdq7-texinfo-interactive-7.0.3
+  /nix/store/s2412c0yy3j9jqrr8b94ywwbzg3b6961-time-1.9
+  /nix/store/bgc497g13q6rb91wjm0k9g73rg6ydx1h-tmpfiles.d
+  /nix/store/4rfh0gvxjh7qxb7m5bgw6sbrbiz5y3b4-tpm2-tss-4.0.1
+  /nix/store/lb1z8nckdwx4kmwy19znh1bl1p63wxhv-tzdata-2024a
+  /nix/store/if2whf7iw8lmfzs5aawmy4l550i1x53n-udev-path
+  /nix/store/c60zjr8aq7n1qhf50qscw55bklvi2p9a-udev-rules
+  /nix/store/dfdpvaxdlxx2v6v6zkmfxx5af6ncq8vm-udev-rules
+  /nix/store/wd82kww3pag2yp5fknzy58ya2b7lv4x9-unbound-1.19.1-lib
+  /nix/store/w5cfld3z1n469q2qmsdn1py0k3m023im-unit--.slice
+  /nix/store/xy0h1d9asscgas3ambw9zrfys4is97wc-unit-40-eth0.link
+  /nix/store/lm0ck6ancmalp11bg7msx7yl53vxipz0-unit-audit.service
+  /nix/store/n3r5yspxnvn1cj8vgw34zpsj78fxviyg-unit-container-.service
+  /nix/store/d4py2ajgcw326v0y3cd7pdxbgxmv2781-unit-container-getty-.service
+  /nix/store/r5jsswylyfk02blc71sg73ixr1bwhc8s-unit-dbus.service
+  /nix/store/w6rk3xgbmccbhl7ivv2dbawmsi94qvga-unit-dbus.service
+  /nix/store/mcgcw88jfdfirnjsnr3ycpk0n7ga5k2w-unit-dbus.socket
+  /nix/store/qq0nh9kc97ljm6p84wcyjpz45kgbj185-unit-dhcpcd.service
+  /nix/store/kx7f0n14r57mrzhlf17dcrz0av57jk46-unit-fs.target
+  /nix/store/nk49qcpc5xr07hyh6yxj29xj47ypm0y4-unit-generate-shutdown-ramfs.service
+  /nix/store/jn7hd4585v3dr0vikzmda5kp3jbxgnh7-unit-getty-.service
+  /nix/store/2xyb04prc49szp38qpw74c7fz7axla4d-unit-getty-tty1.service-disabled
+  /nix/store/9n35skmrvrqzy1mfwca0g0gp1k441hw1-unit-google-guest-agent.service
+  /nix/store/9qv05mh17jnsrw5zla2yaax0nv1iqsg3-unit-google-oslogin-cache.timer
+  /nix/store/nfi0qxf8m964d7ykxyy0rvk3yqnk5imm-unit-google-shutdown-scripts.service
+  /nix/store/fr0l2xxxzpjsmblq65m2ak38h62q616r-unit-google-startup-scripts.service
+  /nix/store/gb1in6l6828kbq8bpy3118xjnh2m1lxn-unit-growpart.service
+  /nix/store/9gm91czisbqldab6s70jpjc0cw7m5n00-unit-keys.target
+  /nix/store/k19yyv7jd6lbdzj6lawxxbvdcl6aqwjy-unit-kmod-static-nodes.service
+  /nix/store/qp1x8ipqqf5446hmv5rynsxxc946hlmw-unit-local-fs.target
+  /nix/store/ka2ga0n0yq30jxr259lizrlrcidacdb3-unit-logrotate-checkconf.service
+  /nix/store/xq6ilmnwdg6lkqll2a2haxnz0iw8jk6m-unit-logrotate.service
+  /nix/store/7703sk2df4r241mmnm0sa4nknm3w77z6-unit-logrotate.timer
+  /nix/store/aab2rjbai69q18rcnqsv40kq9r3mgsgy-unit-mount-pstore.service
+  /nix/store/wyn4dknpqjm8jlqpz77rxidg92m5firv-unit-multi-user.target
+  /nix/store/q4yyfl9036wn60pha1s5bxmbxj271z9z-unit-network-addresses-eth0.service
+  /nix/store/9w6vjygplrg4njks933rf1wkpp5y1qhg-unit-network-local-commands.service
+  /nix/store/arzr9ja0p1117zbpsy80sd1gl2z5hqiv-unit-network-online.target
+  /nix/store/lg5107c8n9cr1l6nhzirdkavdiaw4w09-unit-nix-daemon.service
+  /nix/store/jvalhdkqp4vvkcbk8xbxpnk6pjqfvwm8-unit-nix-daemon.socket
+  /nix/store/bim2331s77x8zc6dzr5ywi2jbc2mdbzy-unit-nix-gc.service
+  /nix/store/jl5b8kpq3r91wby3yr16fm0d7s0fd1zy-unit-nix-optimise.service
+  /nix/store/4kj66ydq8af1j13irzfxsbij06l9v7ny-unit-nix-optimise.timer
+  /nix/store/79sxa6qls1mc0c639idv44ggjpswcays-unit-nixos-activation.service
+  /nix/store/chyw7jd5ijlnzjy351k94ngh5zrh5j8b-unit-nixos-fake-graphical-session.target
+  /nix/store/16f3frnhvvlbhbcw2pni2ymis116rhnn-unit-nscd.service
+  /nix/store/bkj5smmdy34h5za2c70050pfxnm0wn50-unit-post-resume.service
+  /nix/store/zgn764hzkmih2872d9hkrqwi0b4ddask-unit-post-resume.target
+  /nix/store/k7j5kjcgzpracm2cbk24fx52l5pxgyvm-unit-pre-sleep.service
+  /nix/store/v6a2mqjqqwq0005w9xr6ip7zrki8r3c5-unit-prepare-kexec.service
+  /nix/store/r669wwrgpsrrnn5mpirh35yr43v4bgwi-unit-prometheus-node-exporter.service
+  /nix/store/0h6kwa1jm53zc7gjfql28k7n64cpm1fn-unit-prometheus.service
+  /nix/store/faps425m6isjlqpv8djmfsj9h80yvx03-unit-reload-systemd-vconsole-setup.service
+  /nix/store/csdphazbsvmxnxp3l2ayrr9fn6k85b7a-unit-remote-fs.target
+  /nix/store/wnmc4gk1hnlq4jl9q7m3rbp68mgls35k-unit-run-initramfs.mount
+  /nix/store/j40lk6sj1gg7mvc9233vscn1h2d5d8yb-unit-save-hwclock.service
+  /nix/store/34lar5j37w2cqirllq7wwlmkkqp7v9fn-unit-script-container_-post-start
+  /nix/store/1rqs5b7m1q184qh2c872fklrpbinaxph-unit-script-container_-pre-start
+  /nix/store/vzhbaykbwy3v6c4dijbshfyx9pz3vxjd-unit-script-container_-start
+  /nix/store/mis6ajlhjk7ynwm0liiprxwbdy0wmgjp-unit-script-growpart-start
+  /nix/store/11p5vic053kxwbviq770vjbl0xnd2h53-unit-script-network-addresses-eth0-pre-stop
+  /nix/store/i10r12mgc6b50y5mkgil16bss9g70bjc-unit-script-network-addresses-eth0-start
+  /nix/store/37kcdwbff8b972zmr9lsw5kwxy300bvl-unit-script-network-local-commands-start
+  /nix/store/95jd2x5prjya3jnap72725h4i0x38r7r-unit-script-nix-gc-start
+  /nix/store/xqfyymzj14qkipjyfp3dh4441fmbr0zq-unit-script-nixos-activation-start
+  /nix/store/dn0dhnczlr9wipk5a79ccx05mg4z29jb-unit-script-post-resume-start
+  /nix/store/mjln8a2hgzq9y8cn64daz66l210hiv72-unit-script-pre-sleep-start
+  /nix/store/cdmybqfw4gn8ifyhl151zjnxy4lv03km-unit-script-prepare-kexec-start
+  /nix/store/r5bkvh4nnilgclvy6qpc9fhmi41vikwf-unit-script-sshd-pre-start
+  /nix/store/x7qclmby6gykdlhna2hlh2fxjyxij6pq-unit-script-suid-sgid-wrappers-start
+  /nix/store/niasi1vyhzg7d8pgn4qqpyi6dvg4rvzz-unit-script-systemd-timesyncd-pre-start
+  /nix/store/55f3qyl5j96yxvxvdbfy58k70qnqf015-unit-serial-getty-.service
+  /nix/store/mj6pc7x8pr5aga25lvf48mcyyll7yj7z-unit-serial-getty-hvc0.service-disabled
+  /nix/store/kaih7y652jq6z1pr3c85g31kcd7snwpx-unit-serial-getty-ttyS0.service-disabled
+  /nix/store/6l6x0az541wzjqpjw0lmi6f07pslla0w-unit-sshd.service
+  /nix/store/343macnblkl6fx9mc744lwd20856gk0m-unit-suid-sgid-wrappers.service
+  /nix/store/487i17860a3pv480q8djmwj3x1996222-unit-sysinit-reactivation.target
+  /nix/store/znfmaixh25s6gj4zd94qcsl5absba05f-unit-system.slice
+  /nix/store/z4k2iwcjrfjfppkm5js0gb7hcyrkj02v-unit-systemd-backlight-.service
+  /nix/store/4q3y1cfgbf33shj965i4xipa2pf8q61a-unit-systemd-fsck-.service
+  /nix/store/nxypf176bxbav4vd18idnv81dl7bal8a-unit-systemd-importd.service
+  /nix/store/g06zc9h9klvcpfcv3kryh3ga3jaik3ch-unit-systemd-journal-flush.service
+  /nix/store/6yc6ij3gjygkhr5nxn1nhg4f613f2050-unit-systemd-journald-.service
+  /nix/store/lc6hiyx4m0cpkirlapc68g7z1qzhvn7j-unit-systemd-journald.service
+  /nix/store/fi5y29k2m32s1dr1flyhyygnq0nx7x7f-unit-systemd-logind.service
+  /nix/store/pn7cm20nl6qsq6x4x305r6hiqgaqhhpz-unit-systemd-makefs-.service
+  /nix/store/8bgjnf4j4xbgs86xkzsqlnig6sqys05c-unit-systemd-mkswap-.service
+  /nix/store/4l92ilrbg60cgjdb2shrh6zq97j1mjzn-unit-systemd-modules-load.service
+  /nix/store/yn4yzlq51p2i2x9nijc3y2wvmad50x65-unit-systemd-oomd.service
+  /nix/store/is17jzqlhb2gdzxjpcfshcgsya083zsh-unit-systemd-pstore.service
+  /nix/store/qpz2fak230k6sslgifaqnpyj0zimr631-unit-systemd-random-seed.service
+  /nix/store/1pcxq24smixygac06dqbc2iarhjpms82-unit-systemd-remount-fs.service
+  /nix/store/sf0mvpszd0q9z02mc5abgjjmdzvykd0b-unit-systemd-resolved.service
+  /nix/store/3vvb6nhx2p37bmf7fjvx5bbl8pb6p3ml-unit-systemd-sysctl.service
+  /nix/store/ycrddbj8rkd1wg0f6fqixlwip6a9l9pz-unit-systemd-timedated.service
+  /nix/store/lfh3ikm6nrzfhsrahz2f6k1f6v8hbihr-unit-systemd-timesyncd.service
+  /nix/store/nbyc5skqvbdjfs61iln8v92n059rx347-unit-systemd-tmpfiles-resetup.service
+  /nix/store/2z06z9la71nr1hjn6qiqqnlcxj5gaxz5-unit-systemd-tmpfiles-setup.service
+  /nix/store/wf89wkhsjq7f8d633l0vkybqf1dpz5hr-unit-systemd-udev-settle.service
+  /nix/store/qv55g3vhiajdkf87727xlp1pvjd226xk-unit-systemd-udevd.service
+  /nix/store/yjzsxdw0hp1pzaw2kb9q3vivcv3bkqn9-unit-systemd-update-utmp.service
+  /nix/store/1jxss4dh7i6ja2sk18z3q7b8i1z5majv-unit-systemd-user-sessions.service
+  /nix/store/i0a181g45kqk665wmi3fpz3irdkgwfj9-unit-user-.service
+  /nix/store/fxi8f9s190md8yy4myfaqsp9km7nq5ys-unit-user-.slice
+  /nix/store/hjx5nwlzrssvpp4pbxq54a11japrgw9q-unit-user-runtime-dir-.service
+  /nix/store/38hbyd1gwyszqslh3wycv5ly03dr75gj-update-users-groups.pl
+  /nix/store/awbpnsws766p3d4jh6i1w9k9665xvysv-user-units
+  /nix/store/zqd769kn01lfwqzkscrfvpjsyjz15g8a-useradd
+  /nix/store/4n1vc3y49vi9pcksy4kpjmsyfq04mkww-useradd.pam
+  /nix/store/5ppmcac9msxbdam9pyl5p9p5ri649rkm-userdel.pam
+  /nix/store/wy0mw0dib17iv9r4l4r48q143vil9b1i-usermod.pam
+  /nix/store/28c2zl6z20b87i0rdcxmg9csxl7p80rh-users-groups.json
+  /nix/store/8qalcd1aj39whvpampmnarhybm7yz3ac-util-linux-2.39.3-bin
+  /nix/store/qj5h36vrhaa7n295200z42bppn755x3a-util-linux-2.39.3-lib
+  /nix/store/hwvbp9g8y8bxahqdmd8bwqjy81lnhy8l-util-linux-2.39.3-login
+  /nix/store/yrxdabhka34pzkfy0zfwc2bqb8crfqwj-util-linux-2.39.3-man
+  /nix/store/nk396xzln9w7xvqrs4jh4k1dcmpsamwf-util-linux-2.39.3-mount
+  /nix/store/phys7f889z3zs7w86v1k4fb73s7173q9-util-linux-2.39.3-swap
+  /nix/store/2a5hk8jlkmkzjdlvw8r4fw8isfx1clrl-util-linux-minimal-2.39.3-bin
+  /nix/store/fzk5fnlp12z8ckqgx73ddqyw9kip9lqg-util-linux-minimal-2.39.3-lib
+  /nix/store/sdr2br43rc28vwxwfrgsb97ryf61ad3k-util-linux-minimal-2.39.3-login
+  /nix/store/d5w888v2x4h55vr542yriilv69595llf-util-linux-minimal-2.39.3-mount
+  /nix/store/xg1q46ddhp0gcw9smvvnbanwcwqzvng5-util-linux-minimal-2.39.3-swap
+  /nix/store/m7md4mh4aacw4rhy2bk35wz0r809plx5-vconsole.conf
+  /nix/store/jj4529lpdfx8glfy1zdv7g6jcl4j0y7p-vlock.pam
+  /nix/store/fxwaz9gnysypry7bkr5iwlxjbzpm2pi6-w3m-0.5.3+git20230121
+  /nix/store/rwv9rjn4aipl3d9ghi878ls0kaxb0yfg-which-2.21
+  /nix/store/qwr03843lp6cgnixzd4pjijq7acc90mk-xauth-1.1.2
+  /nix/store/hihnkpyd5av509x6cz2i5zhf04j57fyh-xgcc-13.2.0-libgcc
+  /nix/store/h1i6aliq17rvhid5mqfsjvds4ah68m56-xlock.pam
+  /nix/store/cibwqyywg0d0rhh8jlwch76i43jad3xc-xscreensaver.pam
+  /nix/store/y713r9qw3pvhhfplbd0g782n5rhsxdm5-xxHash-0.8.2
+  /nix/store/g2pj8l10qd9ikcri4s04bj762k9qx81z-xz-5.4.6
+  /nix/store/xl7x35n2v2m398hki8q4ib235zn3hv20-xz-5.4.6-bin
+  /nix/store/4ma067fj4pia7sfn61ll2dnqfd3b1y7b-xz-5.4.6-doc
+  /nix/store/01h0wg24n16ljxghslnccbwcw3bg5wmy-xz-5.4.6-man
+  /nix/store/bnqa606cwwff6ja8l6gz7milm7ajd1zi-zlib-1.3.1
+  /nix/store/yzizaw6wqqih1zkg9q1jv0zhj8ygqxb0-zstd-1.5.5
+  /nix/store/9dl0hhy8b128x0jlrvnpvdlk8k85pknc-zstd-1.5.5-bin
+  /nix/store/bqfd70zg7c6pr5zkrbhpy8lmddm30rk4-zstd-1.5.5-man
+copying path '/nix/store/wc0fx5ll5qg27wl3xfhn5hg6r2hnhm6r-firmware' to 'local'...
+copying path '/nix/store/xbyg4x37l32d5py04cfhh74m23d11jfs-glibc-locales-2.38-44' to 'local'...
+copying path '/nix/store/bn8y1ibzcvbqbl7d43zszl180ghy4rsn-lingering-users' to 'local'...
+copying path '/nix/store/q5qw2k004k5qv2jm8wqmssi8xfms3bc0-linux-6.1.79' to 'local'...
+copying path '/nix/store/bp63l3wcp9jjvh2jc5zz6gxhibc8yahb-local-cmds' to 'local'...
+copying path '/nix/store/mhrmx9g4z8mkaxy4ky752chdlck69p2d-mounts.sh' to 'local'...
+copying path '/nix/store/rg5rf512szdxmnj9qal3wfdnpfsx38qi-setup-etc.pl' to 'local'...
+copying path '/nix/store/38hbyd1gwyszqslh3wycv5ly03dr75gj-update-users-groups.pl' to 'local'...
+copying path '/nix/store/28c2zl6z20b87i0rdcxmg9csxl7p80rh-users-groups.json' to 'local'...
+copying path '/nix/store/5hrxzz7a7cqd42rqqvjrn3xydw4hq4sm-acl-2.3.2-doc' to 'local'...
+copying path '/nix/store/l3lfabirnnhvl2cpj9ybgir2jryr8kz1-acl-2.3.2-man' to 'local'...
+copying path '/nix/store/1qbzm4mbhm9jzwirbdkgsigiq7xl3ybp-attr-2.5.2-doc' to 'local'...
+copying path '/nix/store/wbxfc7j0dg1ygbq8acxmc3avzf03zs2v-attr-2.5.2-man' to 'local'...
+copying path '/nix/store/3drn9s1rspxrgd8kilqqqg2vq5sx5rdp-bash-interactive-5.2p26-doc' to 'local'...
+copying path '/nix/store/sbg7v7d8j9szi3rlqvnrdhmanil2vdpg-bash-interactive-5.2p26-info' to 'local'...
+copying path '/nix/store/sbgq69ls47c0d9si99wyj1n6230rz9gg-bash-interactive-5.2p26-man' to 'local'...
+copying path '/nix/store/7iby3b87z5xdd613insc2d7ffgq3jnhm-bash-completion-2.11' to 'local'...
+copying path '/nix/store/dnqkp9in8hp2ppbi894mdgl82pi6y315-bind-9.18.24-man' to 'local'...
+copying path '/nix/store/g28l15mbdbig59n102zd0ardsfisiw32-binfmt_nixos.conf' to 'local'...
+copying path '/nix/store/glhsfnfm3rdjv9685xqpq0f3d3k9k8c7-busybox-static-x86_64-unknown-linux-musl-1.36.1' to 'local'...
+copying path '/nix/store/0zkdfwya04d5zzrv3lvaw2xvammwbmfj-bzip2-1.0.8-man' to 'local'...
+copying path '/nix/store/y8ry1h2a76xhdkagrw06nc75214ry807-chfn.pam' to 'local'...
+copying path '/nix/store/s4gcwhdrq6185wpz2avdj64wm3658i3d-chpasswd.pam' to 'local'...
+copying path '/nix/store/3jf78578kzaz1njzpz501kdkpg17w8w6-chsh.pam' to 'local'...
+copying path '/nix/store/dm324fw8d8lwxx3dvhmx8br4vnd8l0p7-coreutils-full-9.4-info' to 'local'...
+copying path '/nix/store/m303iss8mdvx4k7hmmwv6x70n98wla8x-cryptsetup-2.7.0-man' to 'local'...
+copying path '/nix/store/p7xwmisyjskm9kmy1nb356v9qqymrr3h-curl-8.6.0-man' to 'local'...
+copying path '/nix/store/kz9hck3r6n0n3a5sink8724alfzsyxhj-dbus-1.14.10-doc' to 'local'...
+copying path '/nix/store/yhpn3bdwn5wdzh0sc6bnh573xlknjd8p-dejavu-fonts-minimal-2.37' to 'local'...
+copying path '/nix/store/1gzwjvrilqjw66g76xq142rypwhr01ik-dbus-1.14.10-man' to 'local'...
+copying path '/nix/store/qcljch44fqks31r0gm7vlqywdlqp917f-dhcpcd.exit-hook' to 'local'...
+copying path '/nix/store/736hv8zs9b2fw1aylkn17ixzm61nxn5j-dhcpcd.conf' to 'local'...
+copying path '/nix/store/8djf0033la4hjq4lr6ld400zlxmgyg9f-diffutils-3.10-info' to 'local'...
+copying path '/nix/store/nxgy0s46bw9z3ysqv48nfszbrjxqy2dn-dns-root-data-2023-11-27' to 'local'...
+copying path '/nix/store/hgb9r5ch2kkjrp72lh0p9l4y789w3kpk-e2fsprogs-1.47.0-info' to 'local'...
+copying path '/nix/store/769z3b82knxsz8wih1q3vf4xdrr3f6ar-e2fsprogs-1.47.0-man' to 'local'...
+copying path '/nix/store/c9dk8c69bh8dsfki2x4ndbrj5ij9vx0m-etc-fstab' to 'local'...
+copying path '/nix/store/5biklla8vf33xg1plg9j2a6zrvcch73w-etc-fuse.conf' to 'local'...
+copying path '/nix/store/zgm1vk7g4qmrfkry7sjz7snxx1p4saik-etc-host.conf' to 'local'...
+copying path '/nix/store/m44bn1ri892ndm9a4hfypqhshjaaqsfb-etc-lsb-release' to 'local'...
+copying path '/nix/store/s9nfy5hb3ppw6bynzhy2kc6n17i70mqm-etc-lvm-lvm.conf' to 'local'...
+copying path '/nix/store/ygqhyspdjf6va05hiy3f0aizjp112wh8-etc-man_db.conf' to 'local'...
+copying path '/nix/store/mvmi69hsk26ifgdj3xg9x6xaqmfmb7w3-etc-modprobe.d-firmware.conf' to 'local'...
+copying path '/nix/store/31wb9xwyk9gb5ynscy743kbfwmqxb0zy-X-Restart-Triggers-dhcpcd' to 'local'...
+copying path '/nix/store/69vr3hbnafq5i91nmq358glhiyhg4qvi-etc-modprobe.d-nixos.conf' to 'local'...
+copying path '/nix/store/9wd3sn6kyl561gpx96hb880cj1sl38h2-etc-netgroup' to 'local'...
+copying path '/nix/store/a231xv0bgsgw7q7g03aixjs3lrja7j1g-etc-nix-registry.json' to 'local'...
+copying path '/nix/store/411dgsa2x5sc0f5jan7gs5y7hmjs5khv-etc-nscd.conf' to 'local'...
+copying path '/nix/store/2wg109cs75yp36nzc5vq7z18ma8c4l35-etc-nsswitch.conf' to 'local'...
+copying path '/nix/store/z1gy6ldy45jh22r6130iyd9n9sjwbx69-etc-os-release' to 'local'...
+copying path '/nix/store/l47xnihn82r7pvmjl40zj7qppzziwyp1-etc-pam-environment' to 'local'...
+copying path '/nix/store/zidbi34yn6ahpgbjrhj9mp0fb6hiyxdr-etc-resolvconf.conf' to 'local'...
+copying path '/nix/store/mpcl2w4xfzc9asm3r184y0xxqsqfj9h3-etc-ssh-ssh_config' to 'local'...
+copying path '/nix/store/487nz4gyb6yhm333i1zil3zcs3126q0s-etc-ssh-ssh_known_hosts' to 'local'...
+copying path '/nix/store/0dc98zq1mjd7qsnw81zlmfa8k89czqri-etc-systemd-coredump.conf' to 'local'...
+copying path '/nix/store/dp73imdq701v9b0w26wlzm3rp8gw1mwh-etc-systemd-journald.conf' to 'local'...
+copying path '/nix/store/fglsrr5zlzd1mz2lr9zd1l6f6x0vnb20-etc-systemd-logind.conf' to 'local'...
+copying path '/nix/store/b66333qpncyl76f0rb7l4y0fp9iw9xp3-etc-systemd-oomd.conf' to 'local'...
+copying path '/nix/store/dg3sgagsi4b5ssj21w8mc4hs6c5977id-etc-systemd-resolved.conf' to 'local'...
+copying path '/nix/store/y93821nnahzzxvsx7xkfqjadkbm264m2-etc-systemd-sleep.conf' to 'local'...
+copying path '/nix/store/rc2i554qhwnj0w6sz3425jc9whyr0c0k-etc-systemd-timesyncd.conf' to 'local'...
+copying path '/nix/store/nsnc8j10jmb88yl0rxhj1f000rr4p2kq-etc-systemd-user.conf' to 'local'...
+copying path '/nix/store/13yqz2618pr0qcnj4z6fyqq4j3vwfaf6-extra-hwdb-file' to 'local'...
+copying path '/nix/store/01nh6izl6bsn5zypd8zn7wip0r7pfx38-extra-udev-rules' to 'local'...
+copying path '/nix/store/crwcnq71gspdrfcz6n9fdhmdlhm7vy07-extra-utils' to 'local'...
+copying path '/nix/store/49kxr116s8j1kgbxz2argg4jjc6xsrwx-fc-10-nixos-rendering.conf' to 'local'...
+copying path '/nix/store/ddwbfzfxzfzga8x6k1rrn4jmf68m5ahb-fc-52-nixos-default-fonts.conf' to 'local'...
+copying path '/nix/store/rfvfm63y33dh3rlbnk6d747pvqqyg8k5-fc-53-nixos-reject-type1.conf' to 'local'...
+copying path '/nix/store/j7wi0rx7nkapd3ws7d86h4g7rsmpvrxi-fc-53-no-bitmaps.conf' to 'local'...
+copying path '/nix/store/bhh19mpp5lczfqq6dfh6k1ycmwn3gp40-fc-cache' to 'local'...
+copying path '/nix/store/9qc5sr4ps5ah681iwm327fcw4jlsdncl-X-Restart-Triggers-systemd-journald' to 'local'...
+copying path '/nix/store/gisbsjd0g63qmzq1yfpc79nbj8m2fbvl-X-Restart-Triggers-systemd-journald-' to 'local'...
+copying path '/nix/store/9cq04787xj4d8d7fxa2qsah7ap5hzbms-findutils-4.9.0-info' to 'local'...
+copying path '/nix/store/asx31yckfq278vbr7xiyv663nqkc8l7g-fontconfig-2.15.0' to 'local'...
+copying path '/nix/store/c8zhwibxrkzjxm91zb59qqr4dblrvfpz-gawk-5.2.2-info' to 'local'...
+copying path '/nix/store/bliqiqzqwdklcbajc4vs6jmnwzx638pf-gawk-5.2.2-man' to 'local'...
+copying path '/nix/store/nzvnm5wsigdi3akjkavhx0rmvc8q8q17-gcc-13.2.0-libgcc' to 'local'...
+copying path '/nix/store/pclxb8hg489s65cpnk9pyf0c7fiwy4mn-gnugrep-3.11-info' to 'local'...
+copying path '/nix/store/qwzpzzbs6ahjcf0gnvsk4q5p714811h8-X-Restart-Triggers-systemd-resolved' to 'local'...
+copying path '/nix/store/lxzx55crzam2v572nmdzja5cb000hbfq-gnutar-1.35-info' to 'local'...
+copying path '/nix/store/z026f0jzb3qbjvfw89qlfba0a99rw3zs-X-Restart-Triggers-systemd-timesyncd' to 'local'...
+copying path '/nix/store/7r45hbi815ww4wqygdzlwzpp32w709s9-gnused-4.9-info' to 'local'...
+copying path '/nix/store/wbl484hl8g0hiq9za6y9nv0a87f9h0nl-fc-00-nixos-cache.conf' to 'local'...
+copying path '/nix/store/j85xm2pcmkvg0g6fajpccl54gwbavj6g-groupdel.pam' to 'local'...
+copying path '/nix/store/1wyxxcl0c7ijnasb465991wxgw4lkbmw-groupadd.pam' to 'local'...
+copying path '/nix/store/krmx8n99zgfjx8nzwc0dz9jqnnxkl9vs-groupmems.pam' to 'local'...
+copying path '/nix/store/n2c3w1smg63f3293m1rqslw96df0vxah-groupmod.pam' to 'local'...
+copying path '/nix/store/jczkcv5iry6a48l2pgayg8q152jpgw8s-gzip-1.13-info' to 'local'...
+copying path '/nix/store/gahr82c0jqp1iwmc4p7frljhb03i1xf7-gzip-1.13-man' to 'local'...
+copying path '/nix/store/r8kgkapfd3hnl5hvgd1i8p5602mn4nci-hicolor-icon-theme-0.17' to 'local'...
+copying path '/nix/store/i0dn5ppfqxwqcxivi41k0nqvgdsi3x8a-hwdb.bin' to 'local'...
+copying path '/nix/store/a3gjl0yjk2sh4gqslb1g51w6w35sbvxi-hosts' to 'local'...
+copying path '/nix/store/7c5fwskycsnis2clircc6ydi0zmw6zny-i3lock-color.pam' to 'local'...
+copying path '/nix/store/lrp1034rqnn1i0bp455g2crzjkn0im7k-i3lock.pam' to 'local'...
+copying path '/nix/store/0qwpih2kjj1vgb5imcgdqybsr2dr92aa-iana-etc-20231227' to 'local'...
+copying path '/nix/store/1kz1vbl6mcryh9684wrh3z84lp0icmam-initrd-fsinfo' to 'local'...
+copying path '/nix/store/wvjjd6jb1irx5rq92b876bp30g98029j-initrd-kmod-blacklist-ubuntu' to 'local'...
+copying path '/nix/store/dwv0wf3szv3ipgyyyrf1zxh4iqlckiip-inputrc' to 'local'...
+copying path '/nix/store/9pafdjz0fw4zdmwzjy170lflyvn90lnr-ipv6-privacy-extensions.rules' to 'local'...
+copying path '/nix/store/jn2gw89p78q869mw5j187j8adzvq045q-issue' to 'local'...
+copying path '/nix/store/6jv10grqq0nzq608b7z3bx4yhc215i30-jq-1.7.1' to 'local'...
+copying path '/nix/store/hp4j7q6h4a2gj2vm4mix095y85yrmvna-jq-1.7.1-doc' to 'local'...
+copying path '/nix/store/6qny550zx98zqk3c8pd8i8yi4fsrnc8m-keymap' to 'local'...
+copying path '/nix/store/5bljxxdc3m9phwp4ha76jkbw5iklsppl-kmod-blacklist-30+20230519-1ubuntu3' to 'local'...
+copying path '/nix/store/ygybcxhd4pa7dqnbkv0pqz8fi3dd31cs-jq-1.7.1-man' to 'local'...
+copying path '/nix/store/awlswrywzgnagkllxh8r8cr25w1cgdq8-lessconfig' to 'local'...
+copying path '/nix/store/fypgy3a8zpcjqflqj86zvaqz9c1pjryq-libcap-2.69-doc' to 'local'...
+copying path '/nix/store/7598ax3vnlcvh1algf5v7by9sq80vbfn-kmod-debian-aliases.conf-30+20230601-2' to 'local'...
+copying path '/nix/store/382wkbv88w3faairzfniplcl5m46sbmc-libcap-2.69-man' to 'local'...
+copying path '/nix/store/w713ihz4j5p2g2dp5mhwsaqh10vx2xk7-libressl-3.8.2-man' to 'local'...
+copying path '/nix/store/q5f1r7hjy41zjsgj9nsn7hans177l7v3-less-643-man' to 'local'...
+copying path '/nix/store/y6b21pzdhxgpj59ia02xfcq3lah13n1q-libunistring-1.1' to 'local'...
+copying path '/nix/store/lnxi2kddb4l4l7wyh1xvfzdj6cjn1s9c-link-units' to 'local'...
+copying path '/nix/store/9f8x1pbv2m6rwxp3hjvvzfdfmsl3cg47-linux-6.1.79-modules-shrunk' to 'local'...
+copying path '/nix/store/m5hkk4djwsnlhx0z172f6r470niqli9w-linux-headers-6.7' to 'local'...
+copying path '/nix/store/6g2hg96djmw70l9jfbpn94gkpnl1g76z-linux-headers-static-6.7' to 'local'...
+copying path '/nix/store/zdvslqibayx2s1mv1ksi267yizs1dp4j-login.defs' to 'local'...
+copying path '/nix/store/apsl3n5lm4m24nl6kj390zdpipm6kc8q-locale.conf' to 'local'...
+copying path '/nix/store/ccll5498ybmx310b83246405r5f8sq26-linux-pam-1.6.0-doc' to 'local'...
+copying path '/nix/store/jizsp5fxvpiqv1hszs24ass6d8zadgxz-linux-pam-1.6.0-man' to 'local'...
+copying path '/nix/store/yy405xp0fafsqfadkikz66gli8ns4d5m-logrotate.conf' to 'local'...
+copying path '/nix/store/02wzfa2wmhr3fam0icrcyyx17zz533m5-lvm2-2.03.23-man' to 'local'...
+copying path '/nix/store/hjbv2s4jcxpvq07lxl4dna860rsdd3qf-multiuser.nix' to 'local'...
+copying path '/nix/store/snk808009fdhi4rvwladfpdyd76dywdb-man-db-2.12.0-doc' to 'local'...
+copying path '/nix/store/rny9bdwrs6fkgkq678ixfg1lv3sa18ql-libidn2-2.3.7' to 'local'...
+copying path '/nix/store/0q0krya2j3slr91w5n3acl3673z82j75-mailcap-2.1.53' to 'local'...
+copying path '/nix/store/7frrjmzpfssrqy7sv1shx27avrci8n3w-nano-7.2-info' to 'local'...
+copying path '/nix/store/qz4y8f1pkwjxp3sgmhsb88gqvdv7lmkw-ncurses-6.4-man' to 'local'...
+copying path '/nix/store/jjwlila4cvwpf0pj53s9dpi8d9ri3f1k-nix-2.15.3-man' to 'local'...
+copying path '/nix/store/xfv65bdkgykrsqc9vl3mg8b9dw5nrl2s-nix-2.18.1-man' to 'local'...
+copying path '/nix/store/0p5av9g67m32d4gzagqkwv0wscx83g90-fontconfig-conf' to 'local'...
+copying path '/nix/store/kjxznzldl5ykmj4qvkhfmpxqk004sl87-nix-bash-completions-0.6.8' to 'local'...
+copying path '/nix/store/52w6wwjajmz2hqsmj2nsk5nnnmcfaln7-nix-2.18.1-doc' to 'local'...
+copying path '/nix/store/vz5980h2hijzi3h125wjv6qhgflf85m2-nixos-configuration-reference-manpage' to 'local'...
+copying path '/nix/store/ic5zvs5qpfjsph8j0zid7qx4x0jh09nq-nix.conf' to 'local'...
+copying path '/nix/store/paicyk604w36qi7cmphgp2x7b358vwgq-fontconfig-etc' to 'local'...
+copying path '/nix/store/0grxzb4p1ny8ykmlp31raq4gnahncwdm-nixos-manual-html' to 'local'...
+copying path '/nix/store/psr5cj36rarfjz87m8g95svqhg8z0ap8-nixos-manual.desktop' to 'local'...
+copying path '/nix/store/x81rkwza71rzbh32rz4al2inl899m2vk-X-Restart-Triggers-nix-daemon' to 'local'...
+copying path '/nix/store/s6hby9b4qpqm0i9nyin5q6cn7fyv9fcn-nixos.conf' to 'local'...
+copying path '/nix/store/91ahr5gsgp6lss8ncch8npn0y9hl2ngf-nss-cacert-3.98-p11kit' to 'local'...
+copying path '/nix/store/34hhh8gy6blag8kj0y9nhv4mcrbbwl0f-other.pam' to 'local'...
+copying path '/nix/store/w5m8gk2nymbybqx37qqf97y2myxjci9j-nss-cacert-3.98' to 'local'...
+copying path '/nix/store/8xv9m62f21wmrm75lc2bxc6p3wpfjy5z-perl-5.38.2-man' to 'local'...
+copying path '/nix/store/66xrx6hifi15fcm8xwariqcxjp89y4r9-passwd.pam' to 'local'...
+copying path '/nix/store/shjz3fx0p806dzi1yykhrwksv357wf50-perl5.38.2-File-Copy-Recursive-0.45' to 'local'...
+copying path '/nix/store/11hk4dn6xd2bwilviwfspdp2l2hgd4ai-X-Restart-Triggers-systemd-modules-load' to 'local'...
+copying path '/nix/store/zi83hjl1mvhparrr6zcsk7n4576iwra3-perl5.38.2-File-Slurp-9999.32' to 'local'...
+copying path '/nix/store/9h9wa116f37qxfxbi2kk7lq5f2j2iwkm-perl5.38.2-IO-Stringy-2.113' to 'local'...
+copying path '/nix/store/12jyyyhfs7gp1bclr0f24gwvjd309xrk-perl5.38.2-List-Compare-0.55' to 'local'...
+copying path '/nix/store/siyhlncs0q3mjbc7dc0gjvkypby2cjvx-perl5.38.2-JSON-4.10' to 'local'...
+copying path '/nix/store/79anwpzm0jsz27yfyh52y71skvrv8s2k-prometheus.rules' to 'local'...
+copying path '/nix/store/8cscvj95mcspk68vi1l5jlhy27vhvf6w-perl5.38.2-XML-NamespaceSupport-1.12' to 'local'...
+copying path '/nix/store/74ynhsryyx5jk8c4phvz5n7lh4440p43-publicsuffix-list-0-unstable-2024-01-07' to 'local'...
+copying path '/nix/store/ch40gjjpasnm0wkkfrnbv3zr482y8ykl-perl5.38.2-Config-IniFiles-3.000003' to 'local'...
+copying path '/nix/store/4rd3hzbjjiwpm91a87qb4qk2ppqsgnj9-relaxedsandbox.nix' to 'local'...
+copying path '/nix/store/jvfhzshp2djbh9lk3jxrscb8dnq90a4d-rules-checkrules-checked' to 'local'...
+copying path '/nix/store/xrhk3sx3dyhy9vq8pqh740nd0bhf0d1r-sandbox.nix' to 'local'...
+copying path '/nix/store/4h20q5nm4qzkak28xqzgj5rbcps7a6lp-shadow-4.14.3-man' to 'local'...
+copying path '/nix/store/91pdbfp14rswvkrv6kz5dbfwlx6cl39x-smb-dummy.conf' to 'local'...
+error: hash mismatch importing path '/nix/store/jvfhzshp2djbh9lk3jxrscb8dnq90a4d-rules-checkrules-checked';
+         specified: sha256:0phrw2p8q5hlxshm62ns310rlrg32g9y4rjn2d3191x2n83i6wmv
+         got:       sha256:0ip26j2h11n1kgkz36rl4akv694yz65hr72q4kv4b3lxcbi65b3p
+copying path '/nix/store/2kpi38kl590fhhqx62kpid4knypw888a-runuser-l.pam' to 'local'...
+copying path '/nix/store/knwmzmz566n49zz5qz35s6kq0aa19nwq-runuser.pam' to 'local'...
+copying path '/nix/store/20ch4pydzrk3i862ngb508s546d9414v-sound-theme-freedesktop-0.8' to 'local'...
+copying path '/nix/store/7pq6gz7i2ljm60kzkcs30rv9kq07zgwc-stub-ld-i686-unknown-linux-musl' to 'local'...
+copying path '/nix/store/986s7f4r1accyqpcvp6psmyw48jkqxfp-stub-ld-x86_64-unknown-linux-musl' to 'local'...
+copying path '/nix/store/w1qa2pbha6xd0fyf90z1ycn8pd1arlbd-sudo.pam' to 'local'...
+copying path '/nix/store/1v6d5xd3s27p4fkxvpnn6rf25whiz3xg-systemd-255.2-man' to 'local'...
+copying path '/nix/store/lb1z8nckdwx4kmwy19znh1bl1p63wxhv-tzdata-2024a' to 'local'...
+copying path '/nix/store/xy0h1d9asscgas3ambw9zrfys4is97wc-unit-40-eth0.link' to 'local'...
+copying path '/nix/store/mcgcw88jfdfirnjsnr3ycpk0n7ga5k2w-unit-dbus.socket' to 'local'...
+copying path '/nix/store/chyw7jd5ijlnzjy351k94ngh5zrh5j8b-unit-nixos-fake-graphical-session.target' to 'local'...
+copying path '/nix/store/zqd769kn01lfwqzkscrfvpjsyjz15g8a-useradd' to 'local'...
+copying path '/nix/store/yrxdabhka34pzkfy0zfwc2bqb8crfqwj-util-linux-2.39.3-man' to 'local'...
+copying path '/nix/store/hihnkpyd5av509x6cz2i5zhf04j57fyh-xgcc-13.2.0-libgcc' to 'local'...
+copying path '/nix/store/4ma067fj4pia7sfn61ll2dnqfd3b1y7b-xz-5.4.6-doc' to 'local'...
+copying path '/nix/store/01h0wg24n16ljxghslnccbwcw3bg5wmy-xz-5.4.6-man' to 'local'...
+copying path '/nix/store/bqfd70zg7c6pr5zkrbhpy8lmddm30rk4-zstd-1.5.5-man' to 'local'...
+error: build of '/nix/store/i7jhlgqn7z0brwplfmmrvgsq9vh0fc7r-nixos-system-unnamed-24.05.20240224.73de017' failed
